@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Models;
+
+class ArtikelModel {
+  public static function get_all(){
+    $artikel = DB::table('artikel')->get();
+    return $artikel;
+  }
+  public static function get_all(){
+    $artikel_bar = DB::table('artikel')->insert();
+    return $artikel_baru;
+  }
+}
